@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTO PARTES</title>
+    <TItle>menu desplegable</TItle>
+
+<link rel="stylesheet" href="style_autopartes.css">
+<link rel="stylesheet" href="foms.html">
+<link rel="stylesheet" href="imagen _AP.jpg000">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!--este es el nombre principal de la pagina-->
+    <header>
+        <div class="contenedor">
+            <img src="imagenes/logo-proy.jpeg" alt="">
+            <main>
+            <h1>AUTOPARTES</h1>
+            </main> 
+       </div>
+       <nav>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catalogo</a>
+            <a href="#">Nuestra empresa</a>
+            <a href="contactos.html">Contacto</a>
+            <a href="login.html"><button class="boton">Iniciar sesion</button></a> 
+        </nav>
+        </div>
+    </header>
+    
+    <!--BANNER-->
+<section class="banner">
+    <h2>Las mejores autopartes para tu vehiculo</h2>
+    <p>Calidad garantizada · Envios rapidos · Mejores precios</p>
+    <a href="imagenes/vehiculo.webp"class="boton-banner">Ver catalogo</a>
+</section>
+
+<!--BUSCADOR-->
+<section class="buscador">
+<div class="contenedor-1">
+  <form id="buscador-form">
+      <input id="texto" class="text" placeholder="ESTOY BUSCANDO">
+
+      <select id="categoria" class="categoria">
+       <option value="" disabled selected hidden>Categoria</option>
+        <option value="hyundai.html">Hyundai</option>
+        <option value="kia.html">Kia</option>
+      </select>
+      <button type="submit">Buscar</button>
+  </form>
+<div>
+</section>
+
+<!--catalogo-->
+<section class="catalogo">
+    <h2>Autopartes destacadas</h2>
+    <div class="productos">
+    <div class="producto-1">
+        <img src="imagenes/freno.jpeg">
+        <h3>Pastilla y bomba de freno</h3>
+        <p>Precio $65.000</p>
+        <button>Agregar al carrito</button>
+    </div>
+    <div class="producto-1">
+        <img src="imagenes/Turbo.jpeg">
+        <h3>Actuador turbo</h3>
+        <p>precio $1.104.000</p>
+        <button>Agregar al carrito</button>
+    </div>
+    <div class="producto-1">
+        <img src="imagenes/tapa valvula.jpeg">
+        <h3>Tapa valvula</h3>
+        <p>Precio $223.000</p>
+        <button>Agregar al carrito</button>
+    </div>
+    </div>
+
+<!--BENEFICIOS-->
+<section class="beneficios">
+    <div>
+        <i class="fa-solid fa-truck-fast"></i>
+        <p>Envios a todo el pais</p>
+    </div>
+
+    <div>
+    <i class="fa-solid fa-shield-halved"></i>
+    <p>Productos garantizados</p>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-lock"></i>
+        <p>Pagos seguros</p>
+    </div>
+</section>
+
+<!--footer-->
+<footer class="footer">
+    <div class="footer-col">
+        <h3>Contacto</h3>
+       <p><i class="fa-solid fa-location-dot"></i>Bogota colombia</p>
+        <p><i class="fa-solid fa-envelope"></i>Correo</p>
+        <p><i class="fa-solid fa-phone"></i>+57 312 359 37 26</p>
+    </div>
+
+    <div class="footer-col">
+        <h3>Redes sociales</h3>
+        <div class="social">
+            <a href=""><img src="imagenes/whatsapp.jpg" alt="whatsapp"></a>
+            <a href=""><img src="imagenes/facebook.png" alt="facebook"></a>
+            <a href=""><img src="imagenes/instagram.webp" alt="instagram"></a>
+            <a href=""><img src="imagenes/tiktok.webp" alt="tiktok"></a>
+        </div>
+    </div>
+
+    <div class="footer-col">
+        <h3>Escribenos</h3>
+        <form action="Abarunihyundaiykia@gmail.com" method="post">
+            <input type="text"  name="nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="correo" required>
+            <textarea rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario"></textarea>
+            <button type="submit" class="boton-footer">Enviar</button>
+        </form>
+        
+    </div>
+    <p class="copyright">Todos los derechos reservados 2026</p>
+</footer>
+</body>
+</html>

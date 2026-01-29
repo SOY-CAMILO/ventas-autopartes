@@ -1,0 +1,244 @@
+* {
+    margin: 1px;
+    box-sizing: border-box;
+    font-family: arial sans-serif;
+}
+
+header {
+
+background-color: #1e1e1e;
+color: #fff;
+padding: 15px;
+}
+
+.contenedor {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.contenedor img{
+    width: 200px;
+    height: 40px;
+    margin-right: 30%;
+}
+h1 {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    padding-top: 0 20px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.boton {
+    background-color: #f22;
+    padding-left: 30px;
+    width: 200px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.banner {
+    background-image: url(imagenes/vehiculo.webp);
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: #ffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+p {
+    padding-top: 10px;
+    color: #ffff;
+    padding-bottom: 40px;
+}
+
+.boton-banner {
+    font-size: 20px;
+    color: #ffff;
+    font-family: arial, sans-serif;
+    text-decoration: none;
+    background-color: #f22;
+    padding: 5px;
+    
+}
+
+.buscador {
+    box-sizing: border-box;
+    background-color: #eefe;;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    
+}
+
+.contenedor-1 {
+    display: flex;
+    background-color: #eefe;
+    margin: auto;
+}
+.text {
+    box-shadow: 0px 0px 10px #ce5f;
+    width: 550px;
+    height: 35px;
+    padding-left: 200px;
+    margin-left: 0;
+    margin-right: 60px;
+    border:none;
+    background-color: white;
+    font-size: 18px
+    ;
+}
+
+.categoria {
+    box-shadow: 0px 0px 10px #ce5f;
+    width: 300px;
+    height: 35px;
+    padding-left: 100px;
+    color: #333;
+    font-size: 18px;
+    border: none;
+}
+
+
+button {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 5px 40px 5px 40px;
+    text-decoration: none;
+    background-color: #f30;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+.catalogo {
+    padding: 40px;
+    text-align: center;
+}
+
+.catalogo h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.productos {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    gap: 2px;
+}
+
+.producto-1 {
+    border: 3px solid #eeee;
+    box-shadow: 0px 0px 20px 0px #eee;
+}
+
+.producto-1 img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;   
+}
+
+   
+
+
+.catalogo h3 {
+    padding-top: 20px;
+}
+
+.catalogo p {
+    color: black;
+}
+
+.beneficios {
+    display: flex;
+    background-color: #eefe;
+    padding-top: 20px;
+    margin-top: 20px;
+    gap: 10rem;
+    text-align: center;
+}
+.beneficios i {
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+div {
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.footer-col {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 0.1mm solid #222;
+}
+
+h3 {
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.social {
+    display: grid;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: #000;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    background-color: #000;
+    font-size: 18px;
+    color: #fff;
+}
+
+.boton-footer{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #f22;
+    margin-top: 20px;
+}
+
+.social img {
+    width: 50px;
+    margin-bottom: 50px;
+}
+
