@@ -13,19 +13,8 @@ margin: 0;
 padding: 0;
 text-align: center;
 }
-div {
-    margin: 0;
-    padding: 20px;
-    color: red;
-    
-    
-}
-img {
-    width: 150px;
-    height: 150px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-
+.container {
+    margin: 100px;
 }
 input {
     width: 400px;
@@ -51,6 +40,14 @@ form {
 .recordar a {
     color: red;
     text-decoration: none;
+}
+
+.recordar {
+    padding-top: 20px;
+}
+
+.registrarme {
+    padding-top: 20px;
 }
 .registrarme a {
     color: red;
