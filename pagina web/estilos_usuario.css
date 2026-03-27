@@ -4,31 +4,33 @@ h1{
     font-family: sans-serif;
     
 }
+
 body {
-    background: url("paisajes.jpg");
     background-repeat: repeat no-repeat;
     text-align: center;
     background-size: cover;
-margin: 0;
-padding: 0;
-text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+
 .container {
     margin: 100px;
 }
+
 input {
     width: 400px;
     height: 30px;
     margin-top: 30px;
     border-radius: 0cqh;
 }
+
 .especial{
     width: 150px;
     color: blue;
 border-radius: 0vi;
 }
-.btn-iniciar{
-}
+
 form {
     background-color: black;
     width: 500px;
@@ -37,6 +39,7 @@ form {
     padding: 10px;
     margin-bottom: 100px;
 }
+
 .recordar a {
     color: red;
     text-decoration: none;
@@ -49,7 +52,9 @@ form {
 .registrarme {
     padding-top: 20px;
 }
+
 .registrarme a {
     color: red;
     text-decoration: none;
 }
+

@@ -1,0 +1,56 @@
+body {
+background: linear-gradient(135deg, #3B82F6, #8B5CF6);
+}
+
+.container {
+    width: 600px;;
+    height: 600px;
+    background-color: #000;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-left: 90px;
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+form {
+    background-color: black;
+    margin-left: 100px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 1px solid greenyellow;
+    background: transparent;
+    color: white;
+    padding-left: 40px 0px 40px;
+    text-align: left;
+}
+
+.telefono-container input {
+    border: none;
+    border-bottom: 1px solid greenyellow; 
+}
+
+.btn-iniciar {
+    width: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+a {
+    font-size: 20px;
+    color: greenyellow;
+    text-decoration: none;
+    padding-left: 100px;
+}

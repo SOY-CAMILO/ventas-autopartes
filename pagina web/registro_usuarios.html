@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro_usuarios.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <form action="/registro" method="POST">
+
+            <h1>Crear cuenta</h1>
+
+            <input type="text" placeholder="Nombre completo" name="nombre" required>
+
+            <input type="email" placeholder="Correo electrónico" name="correo" required>
+
+            <!-- solo se admiten numeros de 10 digitos en el input "tel" -->
+            <div class="telefono-container">
+                <input type="tel" placeholder="telefono" name="telefono" maxlength="10" pattern="[0-9]{10}"
+                    inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                    title="Ingrese exactamente 10 números" required>
+            </div>
+
+            <input type="password" placeholder="Contraseña" name="password" required>
+
+            <input type="password" placeholder="Confirmar contraseña" name="confirmar" required>
+
+            
+            <input type="submit" class="btn-iniciar" value="Registrarse">
+
+            5<a href="login.html">Ya tengo cuenta</a>
+            
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

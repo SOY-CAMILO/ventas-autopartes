@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inicio de sesion</title>
-<link rel="stylesheet" href="estilos_usuario.css">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="estilos_usuario.css">
 </head>
-<body>
-    <div class="container">
-    <form action="index.html" method="post">
-         <h1>Inicio de sesion</h1>
-         <input type="email" placeholder="imail" id="correo" name="correo" required>
-         <input type="password" placeholder="password" id="password" name="password" required>
-         
-    <div class="recordar"> <a href="#">Olvido su contraseña</div>
 
-    <input type="submit" class="especial" value="iniciar sesion" class="btn-iniciar" >
-    
-    <div class="registrarme"><a href="">Quiero registrarme</a>
+<body>
+
+    <div class="container">
+
+        <form action="/login" method="POST">
+
+            <h1>Inicio de sesión</h1>
+
+            <input type="email" placeholder="Email" id="correo" name="correo" required>
+
+            <input type="password" placeholder="Password" id="password" name="password" required>
+
+            <div class="recordar">
+                <a href="#">¿Olvidó su contraseña?</a>
+            </div>
+
+            <input type="submit" class="btn-iniciar" value="Iniciar sesión">
+
+            <div class="registrarme">
+                <a href="registro.html">Quiero registrarme</a>
+            </div>
+
         </form>
+
     </div>
-    </div>
+
 </body>
+
 </html>
